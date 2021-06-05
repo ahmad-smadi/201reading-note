@@ -4,4 +4,4 @@
 
 | name | linke |
 |------|-------|
-|class01.md | [class01]()|
+|read01 | [class01](class01)|
