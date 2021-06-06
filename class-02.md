@@ -93,6 +93,15 @@ in order to make a decision your code checks the current status of the scrept th
 - a conditional statement saya what to do in a given situation 
 a conditional statement is based on a concept of " if / then / else " if a condition is met then your code executes one or more statements else your code does somthing different 
 
+### COMMENTS 
+- You should write comments to explain what your code does. They help make your code easier to read and understand. This can help you and others who read your code
+
+#### for example : 
+//var eserName = "ahmad"
+- another way 
+/* var userName = "ahmad" */
+ 
+
 
 
 
