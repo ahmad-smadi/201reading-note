@@ -77,30 +77,42 @@ supposed to put quotes around the <q> element, however Internet Explorer does no
 Link element can be used in an HTML document to tell the browser where to find the CSS file used to style the page. It is an empty element (meaning it does not need a closing tag), and it lives inside the head element.
 
 # JavaScript
-## BEHAVIOR LAYER
-- This is where we can change how the page behaves, adding interact ivity. We will aim to keep as much of our JavaScript as possible in separate files.
+## switch statements
+- swich statements starts with a varibal called the switch value , if the value of the livel varibal is the string one , then the code for the first case is executed , if it is two the second case is executed if it is three , the third case is executed . if it is none og these , the code for the defult case is executed 
 
-### linking to a javascript file from an html page 
-- in this setoation we should use <script> element to tell the browser is is coming across a scropt
- #### for example : 
-<script src="app.js"></script>
+### for examole 
+switch (level){
+    case 'one':
+    title = 'level 1 ' ;
+    breack;
 
-## evaluating condition and conditional staements 
+    case 'two':
+    title = 'level 2'; 
+    breack;
 
-### there are tow componets to a decision :
-- an expression is evaluted , which returns a value 
-in order to make a decision your code checks the current status of the scrept this will done by two values " true or false " 
-- a conditional statement saya what to do in a given situation 
-a conditional statement is based on a concept of " if / then / else " if a condition is met then your code executes one or more statements else your code does somthing different 
+    case 'three' :
+    title = 'level 3';
+    breack;
 
-### COMMENTS 
-- You should write comments to explain what your code does. They help make your code easier to read and understand. This can help you and others who read your code
+    defult:
+    title = ' test';
+    break;
 
-#### for example : 
-//var eserName = "ahmad"
-- another way 
-/* var userName = "ahmad" */
- 
+}
+
+### the deferint between if and switch
+#### if 
+- there is no need to provide an else option (we can just use if statement)
+- it performs more slowly than switch because with if statments we checked even if a match has been found
+
+#### switch 
+- we have a default option that is run if none of the cases match 
+- if a match is found , that code is run then the breack statement stops the rest of the switch statement running 
+
+## using switch statments 
+[example](https://media.geeksforgeeks.org/wp-content/uploads/switch.png)
+
+
 
 
 
