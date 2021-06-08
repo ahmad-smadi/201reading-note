@@ -110,7 +110,7 @@ switch (level){
 - if a match is found , that code is run then the breack statement stops the rest of the switch statement running 
 
 ## using switch statments 
-[example](https://media.geeksforgeeks.org/wp-content/uploads/switch.png)
+![example](https://media.geeksforgeeks.org/wp-content/uploads/switch.png)
 
 
 
