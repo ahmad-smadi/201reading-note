@@ -11,6 +11,8 @@
 |read08 | [class07](class-08)|
 |read05 |[class05](class-05) |
 |read06 |[class06](class-06)| 
+|read09| [class06](class-09)|
+
 
 
 
